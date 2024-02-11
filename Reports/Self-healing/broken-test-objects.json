@@ -1,0 +1,104 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Your Free Amazon Business Account\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Add to Cart_OR/Page_Amazon.in/input_Try different image_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027captchacharacters\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Footer_Link/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil",
+      "brokenLocator": "//div[@id\u003d\u0027navFooter\u0027]/div[4]/ul/li/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Footer_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_India",
+      "brokenLocator": "//div[@id\u003d\u0027navFooter\u0027]/div[4]/ul/li[6]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027India\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Search_Item_OR/Page_Amazon.in/input_Try different image_field-keywords",
+      "brokenLocator": "//input[@id\u003d\u0027captchacharacters\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[5]/div/div/div[2]/div/div/span/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027VW Sonic Bar | 120W Soundbar | 2.1 Channel Home Theatre | 5.25” Wired Subwoofer | Multiple Connectivity \u0026 Sleek Design (Bl...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Footer_OR/Page_Amazon.in/button_Continue shopping",
+      "brokenLocator": "//button[@type\u003d\u0027submit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Conditions of Use \u0026 Sale\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Footer_OR/Page_Amazon.in/button_Continue shopping_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Singin_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in",
+      "brokenLocator": "//div[@id\u003d\u0027nav-signin-tooltip\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Your Free Amazon Business Account\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Singin_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in  harry potter books set/img_Results_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[3]/div/div/span/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027Harry Potter Box Set: The Complete Collection (Children’s Paperback)\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in  harry potter books set/img_Results_s-image_img.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Email or mobile phone number_email",
+      "brokenLocator": "//input[@id\u003d\u0027ap_email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test Suite,Chrome 121.0.0.0,,,09-02-2024 22:49:11,09-02-2024 22:50:53,1m - 41.293s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test/Amazon_TC_Header,Chrome 121.0.0.0,,,09-02-2024 22:49:12,09-02-2024 22:49:38,26.303s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 22:49:12,09-02-2024 22:49:14,2.125s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 22:49:14,09-02-2024 22:49:15,1.203s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 22:49:15,09-02-2024 22:49:16,0.264s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Header_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell""))",Chrome 121.0.0.0,,,09-02-2024 22:49:16,09-02-2024 22:49:18,1.922s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Header_OR/Page_Amazon.in - Deals/a_Electronics""))",Chrome 121.0.0.0,,,09-02-2024 22:49:18,09-02-2024 22:49:33,15.827s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Header_OR/Page_Help - Amazon Customer Service/a_New Releases""))",Chrome 121.0.0.0,,,09-02-2024 22:49:33,09-02-2024 22:49:36,2.226s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Header_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas""))",Chrome 121.0.0.0,,,09-02-2024 22:49:36,09-02-2024 22:49:37,1.588s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 22:49:37,09-02-2024 22:49:38,0.737s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test/Amazon_TC_SignIn,Chrome 121.0.0.0,,,09-02-2024 22:49:38,09-02-2024 22:49:47,9.464s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 22:49:39,09-02-2024 22:49:40,1.035s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 22:49:40,09-02-2024 22:49:41,1.078s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Singin_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 121.0.0.0,,,09-02-2024 22:49:41,09-02-2024 22:49:43,1.766s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), ""gnaneshwari.m2009@gmail.com"")",Chrome 121.0.0.0,,,09-02-2024 22:49:43,09-02-2024 22:49:44,1.729s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,09-02-2024 22:49:44,09-02-2024 22:49:46,1.987s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Forgot Password_password""), ""BbEaZ1/C9zz0xFryNhGqaA=="")",Chrome 121.0.0.0,,,09-02-2024 22:49:46,09-02-2024 22:49:47,1.008s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 22:49:47,09-02-2024 22:49:47,0.150s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test/Amazon_TC_Footer,Chrome 121.0.0.0,,,09-02-2024 22:50:25,09-02-2024 22:50:53,27.423s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 22:50:25,09-02-2024 22:50:26,1.053s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 22:50:26,09-02-2024 22:50:27,0.815s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Footer_OR/Page_Amazon.in/button_Continue shopping""))",Chrome 121.0.0.0,,,09-02-2024 22:50:27,09-02-2024 22:50:28,0.536s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Footer_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia""))",Chrome 121.0.0.0,,,09-02-2024 22:50:28,09-02-2024 22:50:49,21.712s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Footer_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_India""))",Chrome 121.0.0.0,,,09-02-2024 22:50:49,09-02-2024 22:50:52,2.633s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 22:50:52,09-02-2024 22:50:53,0.650s,PASSED

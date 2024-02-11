@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Search_Test Suite,Chrome 121.0.0.0,,,09-02-2024 22:55:36,09-02-2024 22:58:24,2m - 48.163s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test/Amazon_TC_Search,Chrome 121.0.0.0,,,09-02-2024 22:56:15,09-02-2024 22:57:20,1m - 4.940s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 22:56:15,09-02-2024 22:56:16,1.118s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 22:56:16,09-02-2024 22:56:17,0.831s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=amazon-devices"", true)",Chrome 121.0.0.0,,,09-02-2024 22:56:17,09-02-2024 22:56:39,21.960s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""soun"")",Chrome 121.0.0.0,,,09-02-2024 22:56:39,09-02-2024 22:56:40,1.236s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/div_sound bar""))",Chrome 121.0.0.0,,,09-02-2024 22:56:40,09-02-2024 22:56:44,3.699s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/input_Search Amazon.in_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 22:56:44,09-02-2024 22:56:48,3.845s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image""))",Chrome 121.0.0.0,,,09-02-2024 22:56:48,09-02-2024 22:57:20,31.927s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 22:57:20,09-02-2024 22:57:20,0.291s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test/Amazon_TC_AddtoCart,Chrome 121.0.0.0,,,09-02-2024 22:57:20,09-02-2024 22:58:24,1m - 4.218s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 22:57:20,09-02-2024 22:57:21,0.840s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 22:57:21,09-02-2024 22:57:22,1.060s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=stripbooks"", true)",Chrome 121.0.0.0,,,09-02-2024 22:57:22,09-02-2024 22:57:24,1.828s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords""), ""harr"")",Chrome 121.0.0.0,,,09-02-2024 22:57:24,09-02-2024 22:57:25,0.776s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_y potter books set""))",Chrome 121.0.0.0,,,09-02-2024 22:57:25,09-02-2024 22:57:37,12.402s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in  harry potter books set/img_Results_s-image""))",Chrome 121.0.0.0,,,09-02-2024 22:57:37,09-02-2024 22:57:38,0.919s,PASSED
+"switchToWindowTitle(""Buy Harry Potter Box Set: The Complete Collection (Children’s Paperback) Book Online at Low Prices in India | Harry Potter Box Set: The Complete Collection (Children’s Paperback) Reviews & Ratings - Amazon.in"")",Chrome 121.0.0.0,,,09-02-2024 22:57:38,09-02-2024 22:57:46,8.174s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Buy Harry Potter Box Set The Complete _3ecc2b/input_Quantity_submit.add-to-cart""))",Chrome 121.0.0.0,,,09-02-2024 22:57:46,09-02-2024 22:57:51,5.122s,PASSED
+"click(findTestObject(""Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in Shopping Cart/a_Go to Cart""))",Chrome 121.0.0.0,,,09-02-2024 22:57:51,09-02-2024 22:58:24,32.738s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 22:58:24,09-02-2024 22:58:24,0.227s,PASSED

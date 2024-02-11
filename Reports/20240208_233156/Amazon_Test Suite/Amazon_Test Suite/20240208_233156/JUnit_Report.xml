@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Test Suite" time="57.444" tests="3" failures="0" errors="0">
+   <testsuite name="Amazon_Test Suite" tests="3" failures="0" errors="0" time="57.444" skipped="0" timestamp="08-02-2024T23:32:00" hostname="Gnaneshwari - DESKTOP-OPTDEIB" id="Test Suites/Amazon_Test Suite/Amazon_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gnaneshwari\\git\\Katalon-Automation-Testing-Smart-Bridge\\Reports\\20240208_233156\\Amazon_Test Suite\\Amazon_Test Suite\\20240208_233156"/>
+         <property name="logFiles" value="C:\\Users\\Gnaneshwari\\git\\Katalon-Automation-Testing-Smart-Bridge\\Reports\\20240208_233156\\Amazon_Test Suite\\Amazon_Test Suite\\20240208_233156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gnaneshwari - DESKTOP-OPTDEIB"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.192"/>
+         <property name="sessionId" value="757a046f1e0c163ab3597a99639d1bb4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_Test/Amazon_TC_Header" time="19.437" classname="Test Cases/Amazon_Test/Amazon_TC_Header" status="PASSED">
+         <system-out><![CDATA[08-02-2024T23:32:01 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test/Amazon_TC_Header: Test Cases/Amazon_Test/Amazon_TC_Header
+
+08-02-2024T23:32:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T23:32:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T23:32:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T23:32:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T23:32:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:32:04 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:32:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-02-2024T23:32:05 - [MESSAGE][PASSED] - Current window maximized
+
+08-02-2024T23:32:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Header_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell")): Object: 'Object Repository/Amazon_Header_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+08-02-2024T23:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Header_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+08-02-2024T23:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Header_OR/Page_Amazon.in - Deals/a_Electronics")): Object: 'Object Repository/Amazon_Header_OR/Page_Amazon.in - Deals/a_Electronics' is clicked on
+
+08-02-2024T23:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Header_OR/Page_Amazon.in - Deals/a_Electronics' is clicked on
+
+08-02-2024T23:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Header_OR/Page_Help - Amazon Customer Service/a_New Releases")): Object: 'Object Repository/Amazon_Header_OR/Page_Help - Amazon Customer Service/a_New Releases' is clicked on
+
+08-02-2024T23:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Header_OR/Page_Help - Amazon Customer Service/a_New Releases' is clicked on
+
+08-02-2024T23:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Header_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas")): Object: 'Object Repository/Amazon_Header_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas' is clicked on
+
+08-02-2024T23:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Header_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas' is clicked on
+
+08-02-2024T23:32:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T23:32:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_Test/Amazon_TC_SignIn" time="9.104" classname="Test Cases/Amazon_Test/Amazon_TC_SignIn" status="PASSED">
+         <system-out><![CDATA[08-02-2024T23:32:20 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test/Amazon_TC_SignIn: Test Cases/Amazon_Test/Amazon_TC_SignIn
+
+08-02-2024T23:32:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T23:32:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T23:32:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T23:32:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T23:32:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:32:22 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Singin_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in")): Object: 'Object Repository/Amazon_Singin_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in' is clicked on
+
+08-02-2024T23:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Singin_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in' is clicked on
+
+08-02-2024T23:32:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Email or mobile phone number_email"), "gnaneshwari.m2009@gmail.com"): Text 'gnaneshwari.m2009@gmail.com' is set on object 'Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Email or mobile phone number_email'
+
+08-02-2024T23:32:26 - [MESSAGE][PASSED] - Text 'gnaneshwari.m2009@gmail.com' is set on object 'Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Email or mobile phone number_email'
+
+08-02-2024T23:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402")): Object: 'Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+08-02-2024T23:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402' is clicked on
+
+08-02-2024T23:32:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Forgot Password_password"), "BbEaZ1/C9zz0xFryNhGqaA=="): Text ****** has been set on object 'Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Forgot Password_password'
+
+08-02-2024T23:32:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Singin_OR/Page_Amazon Sign In/input_Forgot Password_password'
+
+08-02-2024T23:32:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T23:32:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_Test/Amazon_TC_Footer" time="28.637" classname="Test Cases/Amazon_Test/Amazon_TC_Footer" status="PASSED">
+         <system-out><![CDATA[08-02-2024T23:32:29 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test/Amazon_TC_Footer: Test Cases/Amazon_Test/Amazon_TC_Footer
+
+08-02-2024T23:32:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-02-2024T23:32:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-02-2024T23:32:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-02-2024T23:32:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-02-2024T23:32:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:32:31 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+08-02-2024T23:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Footer_OR/Page_Amazon.in/button_Continue shopping")): Object: 'Object Repository/Amazon_Footer_OR/Page_Amazon.in/button_Continue shopping' is clicked on
+
+08-02-2024T23:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Footer_OR/Page_Amazon.in/button_Continue shopping' is clicked on
+
+08-02-2024T23:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Footer_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia")): Object: 'Object Repository/Amazon_Footer_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia' is clicked on
+
+08-02-2024T23:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Footer_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia' is clicked on
+
+08-02-2024T23:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Footer_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_India")): Object: 'Object Repository/Amazon_Footer_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_India' is clicked on
+
+08-02-2024T23:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Footer_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_India' is clicked on
+
+08-02-2024T23:32:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T23:32:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T23:32:00 - [TEST_SUITE][PASSED] - Amazon_Test Suite: Test Cases/Amazon_Test/Amazon_TC_Footer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

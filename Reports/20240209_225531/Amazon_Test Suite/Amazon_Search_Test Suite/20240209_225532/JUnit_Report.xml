@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Search_Test Suite" time="168.163" tests="2" failures="0" errors="0">
+   <testsuite name="Amazon_Search_Test Suite" tests="2" failures="0" errors="0" time="168.163" skipped="0" timestamp="09-02-2024T22:55:36" hostname="Gnaneshwari - DESKTOP-OPTDEIB" id="Test Suites/Amazon_Test Suite/Amazon_Search_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gnaneshwari\\git\\Katalon-Automation-Testing-Smart-Bridge\\Reports\\20240209_225531\\Amazon_Test Suite\\Amazon_Search_Test Suite\\20240209_225532"/>
+         <property name="logFiles" value="C:\\Users\\Gnaneshwari\\git\\Katalon-Automation-Testing-Smart-Bridge\\Reports\\20240209_225531\\Amazon_Test Suite\\Amazon_Search_Test Suite\\20240209_225532\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Gnaneshwari\\git\\Katalon-Automation-Testing-Smart-Bridge\\Reports\\20240209_225531\\Amazon_Test Suite\\Amazon_Search_Test Suite\\20240209_225532\\1707499575469.png"/>
+         <property name="hostName" value="Gnaneshwari - DESKTOP-OPTDEIB"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.192"/>
+         <property name="sessionId" value="1c1a36fd3ddbaa2ae523d9ac4953e09b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_Test/Amazon_TC_Search" time="64.94" classname="Test Cases/Amazon_Test/Amazon_TC_Search" status="PASSED">
+         <system-out><![CDATA[09-02-2024T22:56:15 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test/Amazon_TC_Search: Test Cases/Amazon_Test/Amazon_TC_Search
+
+09-02-2024T22:56:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-02-2024T22:56:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-02-2024T22:56:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-02-2024T22:56:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-02-2024T22:56:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-02-2024T22:56:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+09-02-2024T22:56:17 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+09-02-2024T22:56:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), "search-alias=amazon-devices", true): All options with value 'search-alias=amazon-devices' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+09-02-2024T22:56:39 - [MESSAGE][PASSED] - All options with value 'search-alias=amazon-devices' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+09-02-2024T22:56:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), "soun"): Text 'soun' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+09-02-2024T22:56:40 - [MESSAGE][PASSED] - Text 'soun' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+09-02-2024T22:56:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/div_sound bar")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/div_sound bar' is clicked on
+
+09-02-2024T22:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/div_sound bar' is clicked on
+
+09-02-2024T22:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/input_Search Amazon.in_nav-search-submit-button")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+09-02-2024T22:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/input_Search Amazon.in_nav-search-submit-button' is clicked on
+
+09-02-2024T22:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image' is clicked on
+
+09-02-2024T22:57:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='search']/div/div/div/span/div/div[5]/div/div/div[2]/div/div/span/div/div/div/div/div/div[2]/div/span/a/div/img'. Please recheck the objects properties to make sure the desired element is located. 
+
+09-02-2024T22:57:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image'. Try using Self-healing.
+
+09-02-2024T22:57:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image' was broken. Propose an alternative one: '//img[@alt='VW Sonic Bar | 120W Soundbar | 2.1 Channel Home Theatre | 5.25” Wired Subwoofer | Multiple Connectivity & Sleek Design (Bl...']'.
+
+09-02-2024T22:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image' is clicked on
+
+09-02-2024T22:57:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-02-2024T22:57:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_Test/Amazon_TC_AddtoCart" time="64.218" classname="Test Cases/Amazon_Test/Amazon_TC_AddtoCart" status="PASSED">
+         <system-out><![CDATA[09-02-2024T22:57:20 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test/Amazon_TC_AddtoCart: Test Cases/Amazon_Test/Amazon_TC_AddtoCart
+
+09-02-2024T22:57:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-02-2024T22:57:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-02-2024T22:57:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-02-2024T22:57:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-02-2024T22:57:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+09-02-2024T22:57:22 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+09-02-2024T22:57:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561"), "search-alias=stripbooks", true): All options with value 'search-alias=stripbooks' are selected in object 'Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+09-02-2024T22:57:24 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks' are selected in object 'Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+
+09-02-2024T22:57:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords"), "harr"): Text 'harr' is set on object 'Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+09-02-2024T22:57:25 - [MESSAGE][PASSED] - Text 'harr' is set on object 'Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_Search Amazon.in_field-keywords'
+
+09-02-2024T22:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_y potter books set")): Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_y potter books set' is clicked on
+
+09-02-2024T22:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_y potter books set' is clicked on
+
+09-02-2024T22:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in  harry potter books set/img_Results_s-image")): Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in  harry potter books set/img_Results_s-image' is clicked on
+
+09-02-2024T22:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in  harry potter books set/img_Results_s-image' is clicked on
+
+09-02-2024T22:57:38 - [TEST_STEP][PASSED] - switchToWindowTitle("Buy Harry Potter Box Set: The Complete Collection (Children’s Paperback) Book Online at Low Prices in India | Harry Potter Box Set: The Complete Collection (Children’s Paperback) Reviews & Ratings - Amazon.in"): Switched to window with title: 'Buy Harry Potter Box Set: The Complete Collection (Children’s Paperback) Book Online at Low Prices in India | Harry Potter Box Set: The Complete Collection (Children’s Paperback) Reviews & Ratings - Amazon.in'
+
+09-02-2024T22:57:46 - [MESSAGE][PASSED] - Switched to window with title: 'Buy Harry Potter Box Set: The Complete Collection (Children’s Paperback) Book Online at Low Prices in India | Harry Potter Box Set: The Complete Collection (Children’s Paperback) Reviews & Ratings - Amazon.in'
+
+09-02-2024T22:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_OR/Page_Buy Harry Potter Box Set The Complete _3ecc2b/input_Quantity_submit.add-to-cart")): Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Buy Harry Potter Box Set The Complete _3ecc2b/input_Quantity_submit.add-to-cart' is clicked on
+
+09-02-2024T22:57:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Buy Harry Potter Box Set The Complete _3ecc2b/input_Quantity_submit.add-to-cart' is clicked on
+
+09-02-2024T22:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in Shopping Cart/a_Go to Cart")): Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in Shopping Cart/a_Go to Cart' is clicked on
+
+09-02-2024T22:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_AddtoCart_OR/Page_Amazon.in Shopping Cart/a_Go to Cart' is clicked on
+
+09-02-2024T22:58:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-02-2024T22:58:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-02-2024T22:55:36 - [TEST_SUITE][FAILED] - Amazon_Search_Test Suite: Test Cases/Amazon_Test/Amazon_TC_Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=amazon-devices' of object 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Amazon_TC_Search.run(Amazon_TC_Search:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707499532992.run(TempTestSuite1707499532992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561' located by '//select[@id='searchDropdownBox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[09-02-2024T22:55:36 - [TEST_SUITE][FAILED] - Amazon_Search_Test Suite: Test Cases/Amazon_Test/Amazon_TC_Search FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'search-alias=amazon-devices' of object 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1207)
+	at Amazon_TC_Search.run(Amazon_TC_Search:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707499532992.run(TempTestSuite1707499532992.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561' located by '//select[@id='searchDropdownBox']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.doCall(SelectOptionByValueKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword$_selectOptionByValue_closure1.call(SelectOptionByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

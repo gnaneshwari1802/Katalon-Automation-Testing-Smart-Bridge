@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span/div/div[5]/div/div/div[2]/div/div/span/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[@alt\u003d\u0027VW Sonic Bar | 120W Soundbar | 2.1 Channel Home Theatre | 5.25” Wired Subwoofer | Multiple Connectivity \u0026 Sleek Design (Bl...\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240209_225531/Amazon_Test Suite/Amazon_Search_Test Suite/20240209_225532/Object Repository/Amazon_Search_Item_OR/Page_Amazon.in  sound bar/img_See all 6,275 results_s-image_img.png"
+    }
+  ]
+}

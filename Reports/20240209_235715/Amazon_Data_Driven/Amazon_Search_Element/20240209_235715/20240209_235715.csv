@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Search_Element,Chrome 121.0.0.0,,,09-02-2024 23:57:20,09-02-2024 23:58:33,1m - 13.790s,ERROR
+,,,,,,,
+Test Cases/Amazon_Data_Driven/Amazon_TC_Search,Chrome 121.0.0.0,,,09-02-2024 23:57:33,09-02-2024 23:57:36,3.598s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,09-02-2024 23:57:33,09-02-2024 23:57:34,0.949s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 23:57:34,09-02-2024 23:57:35,1.118s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 23:57:35,09-02-2024 23:57:36,1.110s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), groovy.lang.Category, true)",Chrome 121.0.0.0,,,09-02-2024 23:57:36,09-02-2024 23:57:36,0.055s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,09-02-2024 23:57:36,09-02-2024 23:57:36,0.255s,PASSED
+,,,,,,,
+Test Cases/Amazon_Data_Driven/Amazon_TC_Search,Chrome 121.0.0.0,,,09-02-2024 23:57:47,09-02-2024 23:57:50,3.519s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,09-02-2024 23:57:47,09-02-2024 23:57:48,0.901s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 23:57:48,09-02-2024 23:57:49,1.120s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 23:57:49,09-02-2024 23:57:50,1.077s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), groovy.lang.Category, true)",Chrome 121.0.0.0,,,09-02-2024 23:57:50,09-02-2024 23:57:50,0.078s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,09-02-2024 23:57:50,09-02-2024 23:57:50,0.222s,PASSED
+,,,,,,,
+Test Cases/Amazon_Data_Driven/Amazon_TC_Search,Chrome 121.0.0.0,,,09-02-2024 23:58:01,09-02-2024 23:58:05,3.504s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,09-02-2024 23:58:01,09-02-2024 23:58:02,0.915s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 23:58:02,09-02-2024 23:58:03,1.089s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 23:58:03,09-02-2024 23:58:04,1.125s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), groovy.lang.Category, true)",Chrome 121.0.0.0,,,09-02-2024 23:58:04,09-02-2024 23:58:04,0.064s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,09-02-2024 23:58:04,09-02-2024 23:58:05,0.214s,PASSED
+,,,,,,,
+Test Cases/Amazon_Data_Driven/Amazon_TC_Search,Chrome 121.0.0.0,,,09-02-2024 23:58:15,09-02-2024 23:58:19,3.868s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,09-02-2024 23:58:15,09-02-2024 23:58:16,0.938s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 23:58:16,09-02-2024 23:58:17,1.117s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 23:58:17,09-02-2024 23:58:19,1.383s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), groovy.lang.Category, true)",Chrome 121.0.0.0,,,09-02-2024 23:58:19,09-02-2024 23:58:19,0.058s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,09-02-2024 23:58:19,09-02-2024 23:58:19,0.269s,PASSED
+,,,,,,,
+Test Cases/Amazon_Data_Driven/Amazon_TC_Search,Chrome 121.0.0.0,,,09-02-2024 23:58:30,09-02-2024 23:58:33,3.661s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,09-02-2024 23:58:30,09-02-2024 23:58:31,1.013s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 23:58:31,09-02-2024 23:58:32,1.145s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,09-02-2024 23:58:32,09-02-2024 23:58:33,1.146s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), groovy.lang.Category, true)",Chrome 121.0.0.0,,,09-02-2024 23:58:33,09-02-2024 23:58:33,0.069s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,09-02-2024 23:58:33,09-02-2024 23:58:33,0.181s,PASSED

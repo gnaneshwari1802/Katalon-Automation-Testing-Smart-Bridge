@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Search_Element,Chrome 121.0.0.0,,,10-02-2024 22:42:22,10-02-2024 22:42:36,14.613s,ERROR
+,,,,,,,
+Test Cases/Amazon_Data_Driven/Amazon_TC_Search,Chrome 121.0.0.0,,,10-02-2024 22:42:33,10-02-2024 22:42:36,3.023s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,10-02-2024 22:42:33,10-02-2024 22:42:34,0.781s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,10-02-2024 22:42:34,10-02-2024 22:42:35,0.973s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,10-02-2024 22:42:35,10-02-2024 22:42:36,0.841s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), findTestData(null).getValue(1, 1), true)",Chrome 121.0.0.0,,,10-02-2024 22:42:36,10-02-2024 22:42:36,0.087s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,10-02-2024 22:42:36,10-02-2024 22:42:36,0.286s,PASSED
